@@ -1,0 +1,39 @@
+.statistics {
+  text-align: center;
+  margin: 0 auto 40px;
+  border-radius: 5px;
+  max-width: 400px;
+  height: 160px;
+  background-color: rgb(241, 235, 235);
+  box-shadow: -6px 9px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.titleContainer {
+  height: 80px;
+}
+.title {
+  font-size: 30px;
+  padding-top: 20px;
+}
+.statList {
+  display: flex;
+justify-content: center;
+  margin-top: auto;
+  height: 80px;
+}
+.item:first-child {
+  border-radius: 0 0 0 5px;
+}
+.item:last-child {
+  border-radius: 0 0 5px 0;
+}
+.item{
+    width: 80px;
+}
+.label {
+  display: block;
+  color: white;
+  padding: 12px 0;
+ }
+.percentage {
+  color: white;
+}
